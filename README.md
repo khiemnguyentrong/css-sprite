@@ -1,1 +1,1 @@
-# css-sprite
+Using CSS Image Sprites

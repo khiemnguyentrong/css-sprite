@@ -1,0 +1,42 @@
+#wrapper{
+    width: 900px;
+    margin: 20px auto;
+}
+
+ul#nav{
+    list-style: none;
+}
+
+ul#nav li{
+    float: left;
+}
+
+ul#nav li a{
+    display: block;
+    width: 99px; height: 96px;
+    background: url(./Social_circle.png) no-repeat top left;
+}
+
+ul#nav li.fb a{
+    background-position: 0px 0px;
+}
+
+ul#nav li.fb a:hover{
+    background-position: 0px -102px;
+}
+
+ul#nav li.tw a{
+    background-position: -99px 0px;
+}
+
+ul#nav li.tw a:hover{
+    background-position: -99px -102px;
+}
+
+ul#nav li.ig a{
+    background-position: -300px 0px;
+}
+
+ul#nav li.ig a:hover{
+    background-position: -300px -102px;
+}
